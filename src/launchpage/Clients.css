@@ -1,0 +1,89 @@
+.clients-page {
+  min-height: 100vh;
+  background: #ffffff00;
+}
+
+.clients-hero-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  position: relative;
+}
+
+.clients-logos-grid {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.clients-hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+  z-index: 0;
+}
+
+.client-logo-circle {
+  width: 160px;
+  height: 160px;
+  background: rgba(255, 255, 255, 0.737); /* semi-transparent white */
+  border-radius: 50%;
+  border: 3px solid #ff6a1a; /* default orange */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+}
+
+.client-logo-circle.blue-border {
+  border-color: #3b82f6;
+}
+
+.client-logo-circle img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.client-logo-circle:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+}
+
+@media (max-width: 900px) {
+  .clients-logos-grid {
+    gap: 1.2rem 1.2rem;
+  }
+  .client-logo-circle {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .clients-hero-bg {
+    padding: 1.2rem 0 1.2rem 0;
+  }
+  .clients-logos-grid {
+    gap: 0.7rem 0.7rem;
+  }
+  .client-logo-circle {
+    width: 64px;
+    height: 64px;
+    border-width: 2px;
+  }
+} 

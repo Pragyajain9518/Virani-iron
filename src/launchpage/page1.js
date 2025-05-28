@@ -1,68 +1,71 @@
 // src/launchpage/page1.js
 import React from 'react';
 import './page1.css';
-import backgroundImage from '../assets/pag1image.jpg';
-
+import backgroundImage from '../assets/heroBanner.png';
+import Navbar from './Navbar';
+import StatsAndWhyChoose from './page2';
+import heroBanner from '../assets/heroBanner.png';
+import viraniLogo from '../assets/virani _20250421_154329_0000.png';
 
 const Page1 = () => {
   return (
-    <div className="page1-container">
-      <header className="page1-header">
-        <div className="page1-logo">
-          <img src="/logo.svg" alt="Virani Iron" className="logo-img" />
-          <div className="logo-text">
-            <div className="company-name">VIRANI IRON</div>
-            <div className="tagline">Reviving Scrap Metal To Life</div>
-          </div>
-        </div>
-        <nav className="page1-nav">
-          <a href="#">About</a>
-          <a href="#">Clients</a>
-          <a href="#">Testimonials</a>
-          <a href="#">Contact</a>
-        </nav>
-        <div className="page1-actions">
-          <button className="buy-btn">Buy</button>
-          <button className="sell-btn">Sell →</button>
-        </div>
-      </header>
-
+    <div >
+      <Navbar className="page1-nav"
+ activeTab="about" />
       <section
         className="page1-hero"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+        style={{ backgroundImage: `url(${backgroundImage})`,
+         padding: "100px" 
+        }}
       >
         <div className="hero-content">
           <h1>
-            Building Tomorrow <br /> with Scrap Today
+            Building Tomorrow <br /> with Recycle Metal Today
           </h1>
           <div className="underline" />
           <p>
-            Your Trusted Partner <br /> in Metal Scrap Solutions
+            Your Trusted Partner <br /> in Metal Recycle Metal Solutions
           </p>
           <div className="hero-buttons">
-            <button className="buy-scrap">Buy Scrap Metal</button>
-            <button className="sell-metal">Sell Your Metal</button>
+            <button className="buy-scrap" onClick={() => window.open('https://wa.me/919822252260', '_blank')}>Buy Recycle Metal</button>
+            <button className="sell-metal" onClick={() => window.open('https://wa.me/919822252260', '_blank')}>Sell Your Metal</button>
           </div>
         </div>
         <div className="rating-badge">
-          <span>4.5</span>
-          <span className="stars">★ ★ ★ ★ ☆</span>
+          <span style={{ color: "white" }}>4.5</span>
+          <span className="stars"> | ★ ★ ★ ★ ☆</span>
         </div>
       </section>
-
-      <div className="metal-types">
-        <span>Cast Iron</span>
-        <span>Stainless Steel</span>
-        <span>Aluminium</span>
-        <span>Copper</span>
-        <span>Brass</span>
-        <span>Bronze</span>
-        <span>Lead</span>
-        <span>Zinc</span>
-        <span>Alloy Steel Scrap</span>
+      <div className="metal-types-container">
+        <div className="metal-types">
+          <span>Cast Iron</span>
+          <span>Stainless Steel</span>
+          <span>Aluminium</span>
+          <span>Copper</span>
+          <span>Brass</span>
+          <span>Bronze</span>
+          <span>Lead</span>
+          <span>Zinc</span>
+          <span>Alloy Steel Recycle Metal </span>
+          {/* duplicated for infinite loop effect */}
+          <span>Cast Iron</span>
+          <span>Stainless Steel</span>
+          <span>Aluminium</span>
+          <span>Copper</span>
+          <span>Brass</span>
+          <span>Bronze</span>
+          <span>Lead</span>
+          <span>Zinc</span>
+          <span>Alloy Steel Recycle Metal </span>
+        </div>
       </div>
+      
+      <StatsAndWhyChoose />
+
+  
     </div>
   );
 };
 
 export default Page1;
+

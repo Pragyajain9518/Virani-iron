@@ -1,0 +1,161 @@
+.moving-logo-container {
+  width: 100vw;
+  overflow: hidden;
+  background: #fff;
+  padding: 16px 0 8px 0;
+
+}
+
+.moving-logo {
+  height: 60px;
+  animation: moveLeft 10s linear infinite;
+  display: block;
+  margin-top: -30px;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+.footer {
+  background: black;
+  color: #fff;
+  padding: 48px 32px 24px 32px;
+  font-family: 'Inter', Arial, sans-serif;
+  
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.footer-brand {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-main-logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: -7px;
+}
+.footer-main-logo.large {
+  width: 240px;
+}
+
+
+.footer-brand-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 8px;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.footer-orange-line {
+  width: 60px;
+  height: 6px;
+  background: #ff6a1a;
+  margin: 16px 0;
+
+}
+
+.footer-desc {
+
+  font-size: 16px;
+  line-height: 1.9;
+  max-width: 320px;
+}
+
+.footer-links,
+.footer-contact,
+.footer-social {
+  flex: 1;
+  min-width: 160px;
+}
+
+.footer-links h4,
+.footer-contact h4,
+.footer-social h4 {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-links li:hover {
+  color: #ff6a1a;
+}
+
+.footer-contact a {
+  color: #ff6a1a;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-linkedin svg {
+  transition: transform 0.2s;
+}
+
+.footer-linkedin:hover svg {
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  .footer-main {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .footer-brand {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-main-logo {
+    width: 50px;
+  }
+  .footer-brand-name {
+    font-size: 1.5rem;
+  }
+  .footer-desc {
+    font-size: 1rem;
+  }
+}

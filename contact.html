@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --background-color: #ecf0f1;
+            --text-color: #2c3e50;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px 0;
+        }
+
+        .contact-section {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-form {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 60px;
+        }
+
+        .contact-heading {
+            color: var(--primary-color);
+            margin-bottom: 40px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 2.5rem;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .contact-heading:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--secondary-color);
+            border-radius: 2px;
+        }
+
+        .form-control {
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+        }
+
+        .btn-submit {
+            background: var(--secondary-color);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-submit:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .address-cards {
+            margin-top: 40px;
+        }
+
+        .address-card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            height: 100%;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-top: 5px solid var(--secondary-color);
+        }
+
+        .address-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .unit-title {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info i {
+            color: var(--secondary-color);
+            margin-right: 15px;
+            font-size: 1.2rem;
+            width: 25px;
+        }
+
+        .address-text {
+            line-height: 1.8;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .contact-heading {
+                font-size: 2rem;
+            }
+            
+            .contact-form {
+                padding: 20px;
+            }
+            
+            .address-card {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container contact-section">
+        <!-- Contact Form Section -->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="contact-form">
+                    <h2 class="contact-heading">Get in Touch</h2>
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" placeholder="Your Name *" required>
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="Your Email *" required>
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control" rows="5" placeholder="Your Message *" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Address Cards Section -->
+        <div class="row address-cards">
+            <!-- Unit 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="address-card">
+                    <h3 class="unit-title">Unit - 1</h3>
+                    <p class="address-text">GAT NO 1232, SANASWADI,<br>
+                    TALUKA-SHIRUR, PUNE-NAGAR ROAD,<br>
+                    DIST PUNE - 412 208</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-user"></i>SHAMSHUDDIN VIRANI</p>
+                        <p><i class="fas fa-phone"></i>+91 9822031447</p>
+                        <p><i class="fas fa-phone-alt"></i>020-27050861</p>
+                        <p><i class="fas fa-envelope"></i>vist14@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unit 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="address-card">
+                    <h3 class="unit-title">Unit - 2</h3>
+                    <p class="address-text">Sr. No. 2340, Sai Satyam Park, Opp.<br>
+                    Bhairavanath Craines, Wagholi,<br>
+                    Pune - 412207 (India)</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-user"></i>NAJMUDDIN VIRANI</p>
+                        <p><i class="fas fa-phone"></i>+91 9822019966</p>
+                        <p><i class="fas fa-phone-alt"></i>020-48617125</p>
+                        <p><i class="fas fa-envelope"></i>vist14@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unit 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="address-card">
+                    <h3 class="unit-title">Unit - 3</h3>
+                    <p class="address-text">Sr. No. 29/3, Old Kharadi Mundhwa Road,<br>
+                    Near Atur India, Pune. 411014 (India)</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-user"></i>AZIM VIRANI</p>
+                        <p><i class="fas fa-phone"></i>+91 9890148938</p>
+                        <p><i class="fas fa-envelope"></i>vist14@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html> 
