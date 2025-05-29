@@ -9,16 +9,17 @@ import Testimonials from './launchpage/Testimonials';
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/home" element={<Page1 />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/clients" element={<Clients />} />
-        <Route path='/contact' element={<ContactPage/>}/>
-        <Route path='/testimonials' element={<Testimonials/>}/>
+ <Routes>
+  <Route path="/" element={<Navigate to="/home" replace />} />
+  <Route path="/home" element={<Page1 />} />
+  <Route path="/about" element={<About />} />
+  <Route path="/clients" element={<Clients />} />
+  <Route path="/contact" element={<ContactPage />} />
+  <Route path="/testimonials" element={<Testimonials />} />
 
-        {/* Add more routes as needed */}
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+  <Route path="*" element={<Navigate to="/home" replace />} />
+</Routes>
+
     </Router>
   );
 }
