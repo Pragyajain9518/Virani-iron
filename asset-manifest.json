@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/virani/static/css/main.0f6d7f34.css",
-    "main.js": "/virani/static/js/main.a9bc8952.js",
+    "main.js": "/virani/static/js/main.d982190c.js",
     "static/js/453.726aa546.chunk.js": "/virani/static/js/453.726aa546.chunk.js",
     "static/media/heroBanner.png": "/virani/static/media/heroBanner.2dc36b55e591a8e9f3fb.png",
     "static/media/background.png": "/virani/static/media/background.4d1cdf6365d415395f3d.png",
@@ -28,11 +28,11 @@
     "static/media/UMA.png": "/virani/static/media/UMA.42f5d218d7a4ed7e4c03.png",
     "index.html": "/virani/index.html",
     "main.0f6d7f34.css.map": "/virani/static/css/main.0f6d7f34.css.map",
-    "main.a9bc8952.js.map": "/virani/static/js/main.a9bc8952.js.map",
+    "main.d982190c.js.map": "/virani/static/js/main.d982190c.js.map",
     "453.726aa546.chunk.js.map": "/virani/static/js/453.726aa546.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f6d7f34.css",
-    "static/js/main.a9bc8952.js"
+    "static/js/main.d982190c.js"
   ]
 }
