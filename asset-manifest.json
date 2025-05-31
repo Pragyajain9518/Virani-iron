@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Virani-iron/static/css/main.f7c67f8b.css",
-    "main.js": "/Virani-iron/static/js/main.25ae3ee0.js",
+    "main.css": "/Virani-iron/static/css/main.46552cad.css",
+    "main.js": "/Virani-iron/static/js/main.faaad23c.js",
     "static/js/453.726aa546.chunk.js": "/Virani-iron/static/js/453.726aa546.chunk.js",
     "static/media/heroBanner.png": "/Virani-iron/static/media/heroBanner.2dc36b55e591a8e9f3fb.png",
-    "static/media/background.png": "/Virani-iron/static/media/background.4d1cdf6365d415395f3d.png",
+    "static/media/background.png": "/Virani-iron/static/media/background.10534e2b93ce7b4672ec.png",
     "static/media/viranilogo.png": "/Virani-iron/static/media/viranilogo.431cca5a2310f6ef0c8b.png",
     "static/media/virani _20250421_154329_0000.png": "/Virani-iron/static/media/virani _20250421_154329_0000.35ac8923738021d8cb38.png",
     "static/media/Group.png": "/Virani-iron/static/media/Group.0441e7e395c8b659cecf.png",
@@ -27,12 +27,12 @@
     "static/media/2 tons.png": "/Virani-iron/static/media/2 tons.dce1e747a84133f3e9b5.png",
     "static/media/UMA.png": "/Virani-iron/static/media/UMA.42f5d218d7a4ed7e4c03.png",
     "index.html": "/Virani-iron/index.html",
-    "main.f7c67f8b.css.map": "/Virani-iron/static/css/main.f7c67f8b.css.map",
-    "main.25ae3ee0.js.map": "/Virani-iron/static/js/main.25ae3ee0.js.map",
+    "main.46552cad.css.map": "/Virani-iron/static/css/main.46552cad.css.map",
+    "main.faaad23c.js.map": "/Virani-iron/static/js/main.faaad23c.js.map",
     "453.726aa546.chunk.js.map": "/Virani-iron/static/js/453.726aa546.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c67f8b.css",
-    "static/js/main.25ae3ee0.js"
+    "static/css/main.46552cad.css",
+    "static/js/main.faaad23c.js"
   ]
 }
