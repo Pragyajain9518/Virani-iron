@@ -11,6 +11,7 @@ import UMALogo from '../assets/clientpage/UMA.png';
 import ShirkeLogo from '../assets/clientpage/Shirke.png';
 import FiatLogo from '../assets/clientpage/fiat.png';
 import BackgroundImage from '../assets/testimonials/background.png';
+import QuotaImg from '../assets/testimonials/quota.png';
 
 const testimonials = [
   {
@@ -59,7 +60,7 @@ const Testimonials = () => {
         <div className="testimonials-overlay">
           <div className="testimonials-header">
             <div className="testimonials-title">What people say<br /><span>About us</span></div>
-         
+            <img src={QuotaImg} alt="Quote" className="testimonials-quote-img" />
           </div>
           <div className="testimonials-list">
             {testimonials.map((item, idx) => (
@@ -74,7 +75,7 @@ const Testimonials = () => {
                 <img
                   src={item.logo}
                   alt={`${item.team} logo`}
-                  className="testimonial-logo"
+                  className={`testimonial-logo ${item.logo ? 'big-logo' : ''} ${idx % 2 === 0 ? 'blue-border' : 'orange-border'}`}
                 />
               </div>
             ))}

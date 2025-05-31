@@ -62,7 +62,7 @@
   .page1-hero {
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 60vh;
     padding: 6rem 2rem 2rem;
     display: flex;
     align-items: center;
@@ -115,8 +115,8 @@
   
   .rating-badge {
     position: absolute;
-    top: 12rem;
-    right: 2rem;
+    top: 7rem;
+    right: 7.5rem;
     border: white 1px solid;
     background: rgba(0, 0, 0, 0.6);
     padding: 0.5rem 1rem;
@@ -172,15 +172,15 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .stat-card {
   background: #ffffff;
   border-radius: 16px;
   padding: 1rem 1rem;
-  width: 200px;
-  text-align: center;
+  width: 260px;
+  height: 150px;  text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* even shadow */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -235,15 +235,15 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2.5rem;
 }
 
 .choose-card {
  
   
   padding: 0;
-  width: 210px;
-  height: 250px;
+  width: 280px;
+  height: 320px;
   text-align: center;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   position: relative;

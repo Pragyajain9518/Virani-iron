@@ -1,8 +1,8 @@
 .impact-section {
   margin-top: 40px;
   margin: 0 auto;
-padding-left: 80px;
-padding-right: 80px;
+padding-left: 98px;
+padding-right: 98px;
   text-align: center;
   background: #fff;
   padding-bottom: 20px;
@@ -44,10 +44,8 @@ padding-right: 80px;
 .impact-stats {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 3.5rem;
-  margin: 2.5rem 0 2.5rem 0;
-  flex-wrap: wrap;
+  gap: 48px;
+  margin: 40px 0 32px 0;
 }
 
 .impact-stat-card {
@@ -88,7 +86,7 @@ padding-right: 80px;
 
 @media (max-width: 900px) {
   .impact-stats {
-    gap: 1.5rem;
+    gap: 18px;
   }
   .impact-section {
     padding: 2rem 0.5rem 1.5rem 0.5rem;
@@ -97,7 +95,7 @@ padding-right: 80px;
 
 @media (max-width: 600px) {
   .impact-section {
-    padding: 1.2rem 0.2rem 1.2rem 0.2rem;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
   }
   .impact-title {
     font-size: 1.2rem;
@@ -106,15 +104,30 @@ padding-right: 80px;
     font-size: 1rem;
   }
   .impact-stats {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.2rem;
-    margin: 1.2rem 0 1.2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "left right"
+      "center center";
+    gap: 18px;
+    justify-items: center;
+    margin: 32px 0 24px 0;
   }
   .impact-stat-card {
-    width: 95vw;
+    width: 100%;
+    max-width: 180px;
     min-width: 0;
-    max-width: 100vw;
+  }
+  .impact-stat-card:nth-child(1) {
+    grid-area: left;
+  }
+  .impact-stat-card:nth-child(2) {
+    grid-area: right;
+  }
+  .impact-stat-card:nth-child(3) {
+    grid-area: center;
+    justify-self: center;
+    margin-top: 10px;
   }
   .impact-value {
     font-size: 1.1rem;

@@ -18,9 +18,14 @@ const About = () => {
           <img src={splitCar} alt="Split Car" />
         </div>
         <div className="about-hero-content">
-          <h2>Building a Sustainable Future<br />From Recyclable Metals</h2>
+          <h1>
+            Building a Sustainable Future<br />
+            From Recyclable Metals
+          </h1>
           <div className="about-underline" />
-          <div className="about-subheadline">Rooted in Legacy, Driven by Sustainable Innovation</div>
+          <div className="about-subheadline">
+            Rooted in Legacy, Driven by Sustainable Innovation
+          </div>
           <div className="about-hero-buttons">
             <button className="about-explore-btn">Explore our services</button>
             <button className="about-partner-btn">Partner with Us</button>
@@ -43,19 +48,19 @@ const About = () => {
         <div className="about-cards">
           <div className="about-card">
             <img src={scrap1} alt="Ferrous & Non Ferrous Scrap Procurement" />
-            <div className="about-card-title">Ferrous & Non Ferrous<br />Recycle Metal Procurement</div>
+            <div className="about-card-title">Green-first Recycling Approach</div>
           </div>
           <div className="about-card">
             <img src={scrap2} alt="Topic 2" />
-            <div className="about-card-title">Topic 2</div>
+            <div className="about-card-title">Ferrous and Non Ferrous recycled procurement</div>
           </div>
           <div className="about-card">
             <img src={scrap3} alt="Topic 3" />
-            <div className="about-card-title">Topic 3</div>
+            <div className="about-card-title">In-house Logistics & Weighbridge Systems</div>
           </div>
           <div className="about-card">
             <img src={scrap4} alt="Topic 4" />
-            <div className="about-card-title">Topic 4</div>
+            <div className="about-card-title"> Real-time market rates</div>
           </div>
         </div>
       </section>

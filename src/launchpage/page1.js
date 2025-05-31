@@ -15,7 +15,8 @@ const Page1 = () => {
       <section
         className="page1-hero"
         style={{ backgroundImage: `url(${backgroundImage})`,
-         padding: "100px" 
+         padding: "100px", 
+         paddinTgop:"10px"
         }}
       >
         <div className="hero-content">
@@ -30,11 +31,12 @@ const Page1 = () => {
             <button className="buy-scrap" onClick={() => window.open('https://wa.me/919822252260', '_blank')}>Buy Recycle Metal</button>
             <button className="sell-metal" onClick={() => window.open('https://wa.me/919822252260', '_blank')}>Sell Your Metal</button>
           </div>
-        </div>
-        <div className="rating-badge">
+          <div className="rating-badge">
           <span style={{ color: "white" }}>4.5</span>
           <span className="stars"> | ★ ★ ★ ★ ☆</span>
         </div>
+        </div>
+       
       </section>
       <div className="metal-types-container">
         <div className="metal-types">
