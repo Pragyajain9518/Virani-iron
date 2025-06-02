@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 // Client logos
 import SRJLogo from '../assets/clientpage/SRJ.png';
-import GPILogo from '../assets/clientpage/GPI.png';
+import GPILogo from '../assets/testimonials/GPI1.png';
 import MagnaLogo from '../assets/clientpage/WOM.png';
 import UMALogo from '../assets/clientpage/UMA.png';
 import ShirkeLogo from '../assets/clientpage/Shirke.png';

@@ -7,13 +7,18 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 80vh;
+  min-height: 32vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 3rem 1rem;
   position: relative;
+}
+.client-logo-circle .gpi-img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
 }
 
 .clients-logos-grid {
@@ -22,7 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 6rem;
+  gap: 7rem;
   max-width: 1200px;
   padding: 0 1rem;
 }
@@ -36,8 +41,8 @@
 }
 
 .client-logo-circle {
-  width: 160px;
-  height: 160px;
+  width: 190px;
+  height: 190px;
   background: rgba(255, 255, 255, 0.737); /* semi-transparent white */
   border-radius: 50%;
   border: 3px solid #ff6a1a; /* default orange */
@@ -77,6 +82,7 @@
 @media (max-width: 600px) {
   .clients-hero-bg {
     padding: 1.2rem 0 1.2rem 0;
+    min-height: 34vh
   }
   .clients-logos-grid {
     gap: 0.7rem 0.7rem;

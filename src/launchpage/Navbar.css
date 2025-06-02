@@ -67,6 +67,7 @@
   color: #f26522 !important;
   background: #f5f5f5 !important;
   height: 100%;
+  padding: 10px;
 
 
   display: flex;
@@ -150,6 +151,7 @@
 
   .navbar-logo {
     height: 60px;
+    margin-left: -44px;
   }
 
   .mobile-menu-btn {
@@ -159,7 +161,7 @@
     z-index: 110;
     position: absolute;
     right: 1.5rem;
-    top: 50%;
+    top: 63%;
     transform: translateY(-50%);
   }
 

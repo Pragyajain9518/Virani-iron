@@ -45,7 +45,15 @@
   height: 6px;
   background: #ff6a1a;
   margin: 1.2rem 0 1.2rem 0;
-  border-radius: 2px;
+
+}
+
+.orange-line {
+  width: 60px;
+  height: 6px;
+  background: #ff6a1a;
+
+  margin: 0.5rem auto 1.2rem auto;
 }
 
 .about-subheadline {
@@ -125,7 +133,8 @@ padding-right: 98px;
 }
 
 .about-what-we-do h2 {
-  font-size: 2rem;
+  /* margin-top: 40px; */
+  font-size: 1.5rem;
   font-weight: 700;
 
 }

@@ -33,21 +33,30 @@ const Clients = () => (
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        minHeight: '60vh',
+        minHeight: '34vh',
         width: '100%'
       }}
     >
       <div className="clients-logos-grid">
-        {clientLogos.map((logo, i) => {
-          // Blue border for Kalika (4), Bajel (6), Zamil (3), Tata (7)
-          const blueBorderIndices = [3, 4, 6, 7];
-          const isBlue = blueBorderIndices.includes(i);
-          return (
-            <div className={`client-logo-circle${isBlue ? ' blue-border' : ''}`} key={i}>
-              <img src={logo} alt={`Client ${i + 1}`} />
-            </div>
-          );
-        })}
+ {clientLogos.map((logo, i) => {
+  const blueBorderIndices = [3, 4, 6, 7];
+  const isBlue = blueBorderIndices.includes(i);
+  const isGPI = i === 13;
+
+  return (
+    <div
+      className={`client-logo-circle${isBlue ? ' blue-border' : ''}`}
+      key={i}
+    >
+      <img
+        src={logo}
+        alt={`Client ${i + 1}`}
+        className={isGPI ? 'gpi-img' : ''}
+      />
+    </div>
+  );
+})}
+
       </div>
     </div>
     <Footer />

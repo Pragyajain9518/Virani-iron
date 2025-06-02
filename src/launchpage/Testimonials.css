@@ -213,6 +213,11 @@ margin-top: 10px;
       height: 60px !important;
     }
   }
+ .gpi-img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+  }
   
   @media (max-width: 500px) {
     .testimonials-header, .testimonials-list {

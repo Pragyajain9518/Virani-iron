@@ -20,21 +20,25 @@ const Page1 = () => {
         }}
       >
         <div className="hero-content">
-          <h1>
+       <div>   <h1>
             Building Tomorrow <br /> with Recycle Metal Today
           </h1>
           <div className="underline" />
           <p>
             Your Trusted Partner <br /> in Metal Recycle Metal Solutions
           </p>
+          <div className="rating-badge desktop">
+    <span style={{ color: "white" }}>4.5</span>
+    <span className="stars"> | ★ ★ ★ ★ ☆</span>
+  </div></div>
           <div className="hero-buttons">
             <button className="buy-scrap" onClick={() => window.open('https://wa.me/919822252260', '_blank')}>Buy Recycle Metal</button>
             <button className="sell-metal" onClick={() => window.open('https://wa.me/919822252260', '_blank')}>Sell Your Metal</button>
           </div>
-          <div className="rating-badge">
-          <span style={{ color: "white" }}>4.5</span>
-          <span className="stars"> | ★ ★ ★ ★ ☆</span>
-        </div>
+          <div className="rating-badge mobile">
+    <span style={{ color: "white" }}>4.5</span>
+    <span className="stars"> | ★ ★ ★ ★ ☆</span>
+  </div>
         </div>
        
       </section>

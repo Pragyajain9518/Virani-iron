@@ -9,16 +9,16 @@ padding-right: 98px;
 }
 
 .impact-title {
-  padding-top: 20px;
-  margin-top: 40px;
+  padding-top: 10px;
+  margin-top: 20px;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0.2rem;
 }
 
 .impact-underline {
-  width: 48px;
-  height: 5px;
+  width: 60px;
+  height: 6px;
   background: #ff6a1a;
   border-radius: 2px;
   margin: 0.5rem auto 1.2rem auto;
