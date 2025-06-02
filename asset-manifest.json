@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Virani-iron/static/css/main.46552cad.css",
-    "main.js": "/Virani-iron/static/js/main.faaad23c.js",
+    "main.css": "/Virani-iron/static/css/main.7bac5be7.css",
+    "main.js": "/Virani-iron/static/js/main.11253a9a.js",
     "static/js/453.726aa546.chunk.js": "/Virani-iron/static/js/453.726aa546.chunk.js",
     "static/media/heroBanner.png": "/Virani-iron/static/media/heroBanner.2dc36b55e591a8e9f3fb.png",
     "static/media/background.png": "/Virani-iron/static/media/background.10534e2b93ce7b4672ec.png",
@@ -15,6 +15,7 @@
     "static/media/WOM.png": "/Virani-iron/static/media/WOM.5ff5065e0737f083874e.png",
     "static/media/Competitive Pricing.png": "/Virani-iron/static/media/Competitive Pricing.5a8e63ef076403b3a65e.png",
     "static/media/image 1.png": "/Virani-iron/static/media/image 1.c53eb0b12c09ca3a960a.png",
+    "static/media/GPI1.png": "/Virani-iron/static/media/GPI1.663bbd948a8069b02bc5.png",
     "static/media/image 3.png": "/Virani-iron/static/media/image 3.4bfcfb987c06426fc211.png",
     "static/media/GPI.png": "/Virani-iron/static/media/GPI.3859ca868dde37d6d263.png",
     "static/media/image 4.png": "/Virani-iron/static/media/image 4.f11405366643f3cc6e39.png",
@@ -27,12 +28,12 @@
     "static/media/2 tons.png": "/Virani-iron/static/media/2 tons.dce1e747a84133f3e9b5.png",
     "static/media/UMA.png": "/Virani-iron/static/media/UMA.42f5d218d7a4ed7e4c03.png",
     "index.html": "/Virani-iron/index.html",
-    "main.46552cad.css.map": "/Virani-iron/static/css/main.46552cad.css.map",
-    "main.faaad23c.js.map": "/Virani-iron/static/js/main.faaad23c.js.map",
+    "main.7bac5be7.css.map": "/Virani-iron/static/css/main.7bac5be7.css.map",
+    "main.11253a9a.js.map": "/Virani-iron/static/js/main.11253a9a.js.map",
     "453.726aa546.chunk.js.map": "/Virani-iron/static/js/453.726aa546.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46552cad.css",
-    "static/js/main.faaad23c.js"
+    "static/css/main.7bac5be7.css",
+    "static/js/main.11253a9a.js"
   ]
 }
