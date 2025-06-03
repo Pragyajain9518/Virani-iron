@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Virani-iron/static/css/main.7bac5be7.css",
+    "main.css": "/Virani-iron/static/css/main.3b71cdab.css",
     "main.js": "/Virani-iron/static/js/main.11253a9a.js",
     "static/js/453.726aa546.chunk.js": "/Virani-iron/static/js/453.726aa546.chunk.js",
     "static/media/heroBanner.png": "/Virani-iron/static/media/heroBanner.2dc36b55e591a8e9f3fb.png",
@@ -28,12 +28,12 @@
     "static/media/2 tons.png": "/Virani-iron/static/media/2 tons.dce1e747a84133f3e9b5.png",
     "static/media/UMA.png": "/Virani-iron/static/media/UMA.42f5d218d7a4ed7e4c03.png",
     "index.html": "/Virani-iron/index.html",
-    "main.7bac5be7.css.map": "/Virani-iron/static/css/main.7bac5be7.css.map",
+    "main.3b71cdab.css.map": "/Virani-iron/static/css/main.3b71cdab.css.map",
     "main.11253a9a.js.map": "/Virani-iron/static/js/main.11253a9a.js.map",
     "453.726aa546.chunk.js.map": "/Virani-iron/static/js/453.726aa546.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bac5be7.css",
+    "static/css/main.3b71cdab.css",
     "static/js/main.11253a9a.js"
   ]
 }
