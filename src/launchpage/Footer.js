@@ -21,7 +21,7 @@ const Footer = () => {
             <li style={{color:"white"}}><Link  to="/about">About Us</Link></li>
             <li><Link to="/clients">Clients</Link></li>
             <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/home">Why Chose Us</Link></li>
+            <li><Link to="/home">Why Choose Us</Link></li>
           </ul>
         </div>
         <div className="footer-contact">
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="footer-social">
           <h4>FOLLOW US</h4>
-          <a href="#" className="footer-linkedin" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/shamshuddin-virani-86820a178/" className="footer-linkedin" aria-label="LinkedIn">
           <FaLinkedin size={30} style={{backgroundColor:"black", color:"white", border:"none"}} />
           </a>
         </div>

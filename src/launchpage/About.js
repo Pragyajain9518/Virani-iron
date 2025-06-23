@@ -36,10 +36,26 @@ const About = () => {
         <h2>Our Legacy</h2>
         <div className="orange-line" />
         <p>
-          Virani Iron Pvt. Ltd., an organisation dedicated to Recycling and Refurbishing of Ferrous and non Ferrous recycled metals. We have started our voyage in 1975. Since the inception of the organisation, we have engaged ourselves in trading and recycling of recycled metals. Our aspiration has been fuelled and our focus has been sharpened by our mentor – Mr. Najmuddin B. Virani.
-          <br />
-          Skill sets and acute market understanding of our frontrunner Mr. Shamshuddin N. Virani have helped Virani Iron Pvt. Ltd. to achieve a pivotal position in the market. Mr. Azim N. Virani is focussed at driving the team to brilliance.<br /><br />
-          Virani Iron Pvt. Ltd. is headquartered in the eclectic town of Pune, Maharashtra, India. Its unremitting progression and evolution has made it one of the significant Importers of and high-speed steel Recycle Metal worldwide.
+  <p style={{textAlign:"center"}}>      Passage Through Time, Our past that built our present.</p>
+        
+
+The journey of Virani Iron Pvt. Ltd. began in 1975, founded by Mr. Najmuddin Virani, a man of great vision, values, and unwavering integrity. What started as a small proprietary firm has grown into a robust private limited company, rooted in trust and built for impact.
+
+While Mr. Virani Sir laid the foundation with hard work and foresight, the next generation has taken the legacy ahead, sharpening systems, expanding reach, and embedding sustainability at its core. His experience remains the cornerstone of everything we build today.
+
+Today, Shamshuddin Virani, the Director and Co-Founder of Virani Iron Pvt. Ltd., leads the company as a new-age entrepreneur transforming India’s recycling landscape. With a strong belief that recycling is not just a business but a responsibility, he has propelled the firm into a space where operational excellence meets conscious growth. Under his leadership, the company continues to evolve, honoring its legacy while embracing innovation and sustainability.
+
+Adding heart and structure to the journey is Vanita Virani, Executive Director and Co-Founder. She is the driving force behind the systems that keep Virani Iron running efficiently. Overseeing both Accounts and HR, Vanita brings clarity, compassion, and precision into the organization. Proactive and people-focused, she is not just the soft heart of the company, she’s a leader shaping its future.
+
+Together, their leadership embodies the perfect blend of legacy, innovation, and care, positioning Virani Iron Pvt. Ltd. as a growing force in the global metal scrap recycling industry.
+
+        </p>
+      </section>
+      <section className="about-legacy">
+        <h2>Our Vision</h2>
+        <div className="orange-line" />
+        <p style={{textAlign:"center"}} >
+        Our vision is to make Virani Iron Pvt. Ltd. a pioneer in recycling metal scrap and to help create a cleaner, greener environment for generations to come.
         </p>
       </section>
       <section className="about-what-we-do">

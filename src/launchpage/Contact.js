@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import contactImage from '../assets/contact/Group.png';
+import location from '../assets/location.png'
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -64,6 +65,34 @@ const Contact = () => {
       </form>
 
     </div>
+    <div className="contact-units">
+  <div className="unit">
+    <img src={location} alt="Location Icon" className="unit-icon" />
+    <div className="unit-details">
+      <h3>Unit - 1</h3>
+      <p>GAT NO 1232, SANASWADI,</p>
+      <p>TALUKA-SHIRUR, PUNE-NAGAR ROAD,</p>
+      <p>DIST PUNE - 412 208</p>
+      <p>SHAMSHUDDIN VIRANI</p>
+      <p>Mobile No: +91 9822031447</p>
+      <p>Land Line No: 020-27050861</p>
+      <p>Email: office@viraniiron.com
+      </p>
+    </div>
+  </div>
+
+  <div className="unit">
+    <img src={location} alt="Location Icon" className="unit-icon" />
+    <div className="unit-details">
+      <h3>Unit 2 (Up coming)</h3>
+      <p>Plot No.10, Village Shikrapur,</p>
+      <p>GAT 1398/1400/1405/1407/1413/1555/1556/1567,</p>
+      <p>Tal Shirur, Nagar Road, Pune - 412 208,</p>
+      <p>Maharashtra, India.</p>
+    </div>
+  </div>
+</div>
+
         <Footer/>
   </div>
   );
