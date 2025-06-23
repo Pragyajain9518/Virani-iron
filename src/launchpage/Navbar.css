@@ -34,13 +34,14 @@
 /* Navigation links */
 .nav-links {
   display: flex;
+  white-space: nowrap;
   align-items: center;
   gap: 6.5rem;
 }
 
 .main-links {
   display: flex;
-  gap: 4.5rem;
+  gap: 3.5rem;
   height: 92px;
   align-items: center;
   font-size: larger;

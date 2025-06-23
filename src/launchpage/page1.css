@@ -426,7 +426,7 @@
     padding: 1.2rem 0.5rem;
   }
   .choose-card {
-    width: 95vw;
+    width: 32vw;
     height: 180px;
   }
   .choose-title {
@@ -484,7 +484,32 @@ margin-bottom: 70px;
   .moving-logo-track {
     gap: 24px;
   }
+.stats-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.7rem;
+  justify-items: center;
+  align-items: start;
 }
+.stat-card {
+  width: 42vw;
+  padding: 1.2rem 0.5rem;
+}
+
+  .choose-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .choose-cards img {
+    height: 180px;
+    width: 127px;
+  }
+  }
+
 
 .clients-title-section {
   text-align: center;

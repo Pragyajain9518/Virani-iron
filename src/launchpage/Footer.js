@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import viraniLogo from '../assets/image.png';
+import viraniLogo1 from '../assets/ViraniIronLogoDesign.png'
 import { FaLinkedin } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
@@ -9,7 +10,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-main">
         <div className="footer-brand">
-          <img src={viraniLogo} alt="Virani Iron Logo" className="footer-main-logo large" />
+          <img src={viraniLogo1} alt="Virani Iron Logo" className="footer-main-logo large" />
           <div className="footer-orange-line"></div>
           <p className="footer-desc">
             Leading suppliers and dealers of premium Recycle metal with a commitment to quality, pricing and sustainability.
@@ -35,7 +36,7 @@ const Footer = () => {
         <div className="footer-social">
           <h4>FOLLOW US</h4>
           <a href="https://www.linkedin.com/in/shamshuddin-virani-86820a178/" className="footer-linkedin" aria-label="LinkedIn">
-          <FaLinkedin size={30} style={{backgroundColor:"black", color:"white", border:"none"}} />
+          <FaLinkedin size={30} style={{backgroundColor:"#231F20", color:"white", border:"none"}} />
           </a>
         </div>
       </div>

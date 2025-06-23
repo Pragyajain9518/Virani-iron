@@ -9,7 +9,7 @@ const navLinks = [
   { label: 'About', key: 'about', to: '/about' },
   { label: 'Clients', key: 'clients', to: '/clients' },
   { label: 'Testimonials', key: 'testimonials', to: '/testimonials' },
-  { label: 'Contact', key: 'contact', to: '/contact' },
+  { label: 'Contact Us', key: 'contact', to: '/contact' },
 ];
 
 const Navbar = () => {
