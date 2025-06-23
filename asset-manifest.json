@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Virani-iron/static/css/main.4332f979.css",
-    "main.js": "/Virani-iron/static/js/main.52371088.js",
+    "main.css": "/Virani-iron/static/css/main.3cb9b084.css",
+    "main.js": "/Virani-iron/static/js/main.a8b58a60.js",
     "static/js/453.726aa546.chunk.js": "/Virani-iron/static/js/453.726aa546.chunk.js",
     "static/media/heroBanner.png": "/Virani-iron/static/media/heroBanner.2dc36b55e591a8e9f3fb.png",
     "static/media/background.png": "/Virani-iron/static/media/background.10534e2b93ce7b4672ec.png",
@@ -26,14 +26,15 @@
     "static/media/fiat.png": "/Virani-iron/static/media/fiat.49036947c17515562565.png",
     "static/media/1.5 tons.png": "/Virani-iron/static/media/1.5 tons.53888549c9f61cf15a21.png",
     "static/media/2 tons.png": "/Virani-iron/static/media/2 tons.dce1e747a84133f3e9b5.png",
+    "static/media/ViraniIronLogoDesign.png": "/Virani-iron/static/media/ViraniIronLogoDesign.02e95f2e57de7086fcdc.png",
     "static/media/UMA.png": "/Virani-iron/static/media/UMA.42f5d218d7a4ed7e4c03.png",
     "index.html": "/Virani-iron/index.html",
-    "main.4332f979.css.map": "/Virani-iron/static/css/main.4332f979.css.map",
-    "main.52371088.js.map": "/Virani-iron/static/js/main.52371088.js.map",
+    "main.3cb9b084.css.map": "/Virani-iron/static/css/main.3cb9b084.css.map",
+    "main.a8b58a60.js.map": "/Virani-iron/static/js/main.a8b58a60.js.map",
     "453.726aa546.chunk.js.map": "/Virani-iron/static/js/453.726aa546.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4332f979.css",
-    "static/js/main.52371088.js"
+    "static/css/main.3cb9b084.css",
+    "static/js/main.a8b58a60.js"
   ]
 }
