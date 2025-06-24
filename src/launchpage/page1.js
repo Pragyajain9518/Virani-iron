@@ -49,7 +49,7 @@ const Page1 = () => {
           <span>Aluminium</span>
           <span>Copper</span>
           <span>Brass</span>
-          <span>Bronze</span>
+     
           <span>Lead</span>
           <span>Zinc</span>
           <span>Alloy Steel Recycle Metal </span>
@@ -59,7 +59,7 @@ const Page1 = () => {
           <span>Aluminium</span>
           <span>Copper</span>
           <span>Brass</span>
-          <span>Bronze</span>
+   
           <span>Lead</span>
           <span>Zinc</span>
           <span>Alloy Steel Recycle Metal </span>

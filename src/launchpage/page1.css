@@ -214,7 +214,7 @@
 /* Why Choose */
 
 .why-choose {
-  background: #eeefef;
+  /* background: #eeefef; */
   border-radius: 0;
   padding: 1rem 0 1rem 0;
 }
@@ -426,8 +426,14 @@
     padding: 1.2rem 0.5rem;
   }
   .choose-card {
-    width: 32vw;
+    width: 37vw;
     height: 180px;
+  }
+
+  .why-choose {
+    /* background: #eeefef; */
+    border-radius: 0;
+    padding: 1rem 4rem 1rem 4rem;
   }
   .choose-title {
     font-size: 1rem;
@@ -496,17 +502,25 @@ margin-bottom: 70px;
   padding: 1.2rem 0.5rem;
 }
 
+.stat-text{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #111;
+  margin-top: 0.5rem;
+  line-height: 1.3;
+  
+}
   .choose-cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.7rem;
+    gap: 1.7rem;
     justify-items: center;
     align-items: start;
   }
 
   .choose-cards img {
     height: 180px;
-    width: 127px;
+    width: 148px;
   }
   }
 
